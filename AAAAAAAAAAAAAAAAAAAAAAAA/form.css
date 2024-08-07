@@ -1,0 +1,126 @@
+a{
+     color: white;
+     font-size: 20px;
+     text-decoration: none;
+ }
+ .login{
+     width: auto;
+     height: 48px;
+     margin-left: 100px;
+ }
+ body{
+     margin: 0 0;
+     padding: 0 0;
+     }
+.head{ 
+background-color: 5F6272;
+padding-bottom: 0px;
+display: flex;
+justify-content: right;
+}
+.head2{
+background-color:484B5A;
+padding-bottom: 22px;
+display: flex;
+justify-content: space-around;
+padding-top: 20px;
+padding-bottom: 15px;
+}
+.head2>a{
+background-color: 9398AE;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 22px;
+border: 1px solid white;
+}
+.jaldi1 {
+     font-family: "Jaldi", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+   }
+   
+   .jaldi2 {
+     font-family: "Jaldi", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+   }
+.Tamanho{
+font-size: 300%;
+font-family: "Jaldi", sans-serif;
+font-weight: 400;
+font-style: normal;
+margin-right: 300PX;
+}
+fieldset{
+          background-color: ACB0C3;
+          border-radius: 20px;
+          padding-top: 30;
+          margin-top: 25px;
+          margin-left: 500px;
+          margin-right: 500px;
+          margin-bottom: 20px;
+          padding-bottom: 30px;
+          display: grid;
+          height: 400px;
+}
+.texto{
+     font-family: "Itim", cursive;
+     font-weight: 400;
+     font-style: normal;
+     color: white;
+     height: 3;
+    margin: 0 auto;
+    text-decoration: none;
+}
+.fonte{
+     height: 3;
+     font-family: "Jaldi", sans-serif;
+     font-weight: 400;
+     font-style: normal; 
+}
+.rodape{
+     background-color: 262938;
+     position: relative;
+     bottom: 0;
+     width: 96%;
+     margin: 20px 20px;
+     padding: 1px;
+     border-radius: 10px;
+     border: 2px solid white;
+     height: 80px;
+     font-size: 17px;
+     color: white;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     }
+     .direira {
+          justify-self: end;
+          font-family: "Jaldi", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          margin-top: 4;
+     }
+     .esquerda{
+          font-family: "Jaldi", sans-serif;
+          font-weight: 400;
+          font-style: normal;
+          margin-top: 4;
+     }
+  input{
+     border-radius: 30px;
+  }
+     @media(max-width: 600px){
+          .head2{
+          font-size: 5px;
+          }
+          .rodape{
+          font-size: 15px;
+          margin-left: 2px;
+          }
+          fieldset{
+               margin-left: 120px;
+          }
+          .Tamanho{
+               margin-right: 0px;
+             }
+          }
